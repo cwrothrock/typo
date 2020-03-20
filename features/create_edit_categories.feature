@@ -20,7 +20,7 @@ Feature: Create Category
     Then I should see "link_initial"
     Then I should see "fluff_initial"
     
-    Then I follow "foobar"
+    Then I follow "foobar_initial"
     When I fill in "category_name" with "foobar_edit"
     And I fill in "category_keywords" with "words_edit"
     And I fill in "category_permalink" with "link_edit"
